@@ -50,6 +50,7 @@ android {
             signingConfig signingConfigs.debug
             shrinkResources false
             minifyEnabled true
+            proguardFiles "proguard-rules.pro"
             proguardFiles "${background_geolocation.projectDir}/proguard-rules.pro"
         }
     }
